@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import { select as d3Select, event as d3Event } from 'd3-selection';
 import { zoom as d3Zoom, zoomTransform as d3ZoomTransform } from 'd3-zoom';
 import { drag as d3Drag } from 'd3-drag';
